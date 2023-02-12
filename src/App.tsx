@@ -10,16 +10,15 @@ export default function App() {
         </p>
       </div>
 
-      <div className="max-md:hidden flex flex-col h-full">
-        <div className="p-2 border border-slate-300">
+      <div className="max-md:hidden h-full">
+        <div className="p-2 border border-slate-300 h-[48px]">
           <h1>Seating Chart, main toolbar</h1>
         </div>
-        <div className="flex-grow flex flex-row flex-nowrap">
-          <div className="w-1/5 p-2 border-r border-slate-300">build the classroom</div>
-          <div className="flex-grow p-2">
+        <div className="flex flex-row flex-nowrap h-[calc(100%-48px)]">
+          <div className="w-1/4 border-r border-slate-300 h-full overflow-scroll">build the classroom</div>
+          <div className="flex-grow h-full overflow-scroll">
             <Classroom />
           </div>
-          <div className="w-1/5 p-2 border-l border-slate-300">set the rules</div>
         </div>
       </div>
     </>
