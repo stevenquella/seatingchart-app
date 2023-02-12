@@ -1,0 +1,15 @@
+.input-wrapper {
+  @apply text-slate-700 flex flex-col items-stretch gap-0;
+}
+
+.label {
+  @apply block text-sm uppercase pl-1;
+}
+
+.input {
+  @apply block px-2 py-1 border border-slate-300 rounded focus:border-purple-500 focus:ring-purple-500 sm:text-sm;
+}
+
+.input-help-text {
+  @apply block text-sm font-light pl-1;
+}
